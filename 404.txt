@@ -1,0 +1,6 @@
+<%  Response.Status = "404 Not Found"  %>
+test
+
+404 - test
+
+404test。
