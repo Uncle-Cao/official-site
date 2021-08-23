@@ -4794,7 +4794,7 @@ h3 + img {
 	margin-top: -10px;
 }
 
-.row-10 * > {
+.row-10 >*{ 
 	margin-top: 10px;
 }
 
@@ -5803,7 +5803,7 @@ html.tablet .ui-to-top {
 .rd-navbar-wrap, .rd-navbar,
 .rd-menu,
 .rd-navbar-nav,
-.rd-navbar-panel, .rd-navbar-static .rd-menu, .rd-navbar-fixed .rd-navbar-nav-wrap, .rd-navbar-fixed .rd-navbar-submenu {
+.rd-navbar-panel, .rd-navbar-static .rd-menu, .rd-navbar-fixed .rd-navbar-nav-wrap, .rd-navbar-fixed .rd-navbar-submenu,.rd-navbar-slogan-content{
 	transition: 0.35s all cubic-bezier(0.65, 0.05, 0.36, 1);
 }
 
@@ -6470,6 +6470,23 @@ html.tablet .ui-to-top {
 	padding: 4px;
 }
 
+
+.rd-navbar-fixed .rd-navbar-slogan-content{
+	position:fixed;
+	margin:auto;
+	width:auto;
+	align-items: center;
+	font-size: 14px;
+}
+.rd-navbar-fixed .rd-navbar-slogan-content div{
+	display:flex !important;
+	justify-content:center !important;
+}
+	.rd-navbar-fixed .rd-navbar-slogan-content span{
+		color:#ffffff;
+	}
+}
+
 .rd-navbar-fixed .rd-navbar-nav-wrap {
 	position: fixed;
 	left: 0;
@@ -6811,7 +6828,10 @@ html.tablet .ui-to-top {
 	box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.25);
 	background: #404044;
 }
-
+.rd-navbar-fixed .rd-navbar-slogan-content{
+	color:#ffffff;
+	box-shadow: none;	
+}
 .rd-navbar-fixed .rd-navbar-nav-wrap {
 	color: #ffffff;
 	background: #ffffff;
