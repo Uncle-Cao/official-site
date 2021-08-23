@@ -8265,7 +8265,7 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .counter-classic-number {
-	font-size: 38px;
+	font-size: 34px;
 	line-height: 0.8;
 	font-weight: 700;
 	letter-spacing: .017em;
@@ -8276,12 +8276,12 @@ html.rd-navbar-fixed-linked .page {
 
 @media (min-width: 992px) {
 	.counter-classic-number {
-		font-size: 48px;
+		font-size: 44px;
 	}
 }
 
 .counter-classic-number > * {
-	display: inline-block;
+	display:inline-block;
 }
 
 .counter-classic-number .symbol {
